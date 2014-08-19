@@ -1,0 +1,22 @@
+{
+  "name": "pull-rebuffer",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/pull-rebuffer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-rebuffer.git"
+  },
+  "dependencies": {
+    "looper": "~3.0.0"
+  },
+  "devDependencies": {
+    "tape": "~2.14.0",
+    "pull-stream": "~2.24.0"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
