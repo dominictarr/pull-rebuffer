@@ -1,6 +1,6 @@
 {
   "name": "pull-rebuffer",
-  "description": "",
+  "description": "pull-stream that reclumps short strings (to speed writing to fs etc)",
   "version": "0.0.0",
   "homepage": "https://github.com/dominictarr/pull-rebuffer",
   "repository": {
