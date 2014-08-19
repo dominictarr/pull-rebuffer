@@ -16,6 +16,10 @@ pull(
 
 ```
 
+for some node streams, but in particular fs streams,
+writing a few longer buffers will be much faster than
+writing many short buffers.
+
 ## License
 
 MIT
