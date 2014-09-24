@@ -9,13 +9,12 @@ module.exports = function (len) {
     return function (abort, cb) {
       if(ended) return cb(ended)
       looper(function (next) {
-        console.log('llopy')
         read(abort, function (end, data) {
           var _buffer
           // if the input has ended,
           // cb any remaining data (if it exists)
           // else end the stream.
-          console.log(end, data)
+
           if(end) {
             ended = end
             if(buffer) {
